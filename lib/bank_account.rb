@@ -17,4 +17,7 @@ class BankAccount #one instance can transfer money to another instance.
     return "Your balance is $#{@balance}." 
   end
 
+  def valid?
+  end
+
 end
