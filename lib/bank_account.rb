@@ -14,7 +14,7 @@ class BankAccount #one instance can transfer money to another instance.
   end
 
   def display_balance
-    
+    @balance 
   end
 
 end
