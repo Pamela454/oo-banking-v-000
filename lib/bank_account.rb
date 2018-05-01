@@ -14,10 +14,12 @@ class BankAccount #one instance can transfer money to another instance.
   end
 
   def display_balance
-    return "Your balance is $#{@balance}." 
+    return "Your balance is $#{@balance}."
   end
 
   def valid?
+    @status = "open"
+    @balance > 0
   end
 
 end
