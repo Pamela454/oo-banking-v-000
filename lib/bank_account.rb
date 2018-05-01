@@ -18,6 +18,7 @@ class BankAccount #one instance can transfer money to another instance.
   end
 
   def valid?
+    binding.pry
     if @status = "open" && @balance > 0
       return true
     end
