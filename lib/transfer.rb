@@ -26,4 +26,8 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     end
   end
 
+  def reverse_transfer
+  end
+  
+
 end
