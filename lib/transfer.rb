@@ -10,4 +10,8 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     @amount = amount
     @status = "pending"
   end
+
+  def valid?
+  end
+  
 end
