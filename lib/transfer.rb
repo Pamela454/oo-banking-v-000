@@ -32,7 +32,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
       sender.balance += amount
       @status = "reversed"
     else
-      @status = "rejected"
+      reject_transfer
     end
   end
 
