@@ -12,7 +12,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
   end
 
   def valid?(sender, receiver)
-    @status == "open" && @balance > 0
+    @sender.valid? && @receiver.valid?
   end
 
 end
