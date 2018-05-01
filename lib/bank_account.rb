@@ -1,5 +1,5 @@
 class BankAccount #one instance can transfer money to another instance.
-  attr_accessor :name
+  attr_accessor :name, :balance 
 
   def initialize(name)
     @name = name
