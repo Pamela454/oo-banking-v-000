@@ -31,6 +31,8 @@ class Transfer #space for transaction between two bank accounts. is able to reje
       sender.balance += amount
       receiver.balance -= amount
       self.status = "reversed"
+    else
+      @status = "rejected"
     end
   end
 
