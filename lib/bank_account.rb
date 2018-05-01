@@ -18,7 +18,7 @@ class BankAccount #one instance can transfer money to another instance.
   end
 
   def valid?
-    @status = "open" and @balance > 0
+    @status = "open" && @balance > 0
   end
 
 end
