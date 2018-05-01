@@ -11,7 +11,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     @status = "pending"
   end
 
-  def valid?(sender, receiver)
+  def valid?
     @sender.valid? && @receiver.valid?
   end
 
