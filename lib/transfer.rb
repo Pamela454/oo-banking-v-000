@@ -15,7 +15,8 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     @sender.valid? && @receiver.valid?
   end
 
-  def execute_transaction
+  def execute_transaction(money)
+
   end
-  
+
 end
