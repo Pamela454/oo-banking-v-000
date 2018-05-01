@@ -9,7 +9,7 @@ class BankAccount #one instance can transfer money to another instance.
   end
 
   def deposit(money)
-
+    return @balance + money 
   end
 
 
