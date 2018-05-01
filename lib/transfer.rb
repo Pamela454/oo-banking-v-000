@@ -4,7 +4,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
 
   def initialize(sender, receiver, amount)
     @sender = sender
-    @receiver = receiver 
-    @amount = 
+    @receiver = receiver
+    @amount = amount
   end
 end
