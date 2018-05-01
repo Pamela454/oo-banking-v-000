@@ -22,4 +22,7 @@ class BankAccount #one instance can transfer money to another instance.
     @status == "open" && @balance > 0
   end
 
+  def close_account
+  end
+
 end
