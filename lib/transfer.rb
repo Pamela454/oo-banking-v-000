@@ -2,7 +2,7 @@ require 'pry'
 class Transfer #space for transaction between two bank accounts. is able to reject a transfer.
   # your code here
   attr_reader :sender, :receiver, :amount
-  attr_accessor :status 
+  attr_accessor :status
 
   def initialize(sender, receiver, amount)
     @sender = sender
@@ -12,6 +12,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
   end
 
   def valid?
+    
   end
-  
+
 end
