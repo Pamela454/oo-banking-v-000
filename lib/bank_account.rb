@@ -8,4 +8,8 @@ class BankAccount #one instance can transfer money to another instance.
     @status = "open"
   end
 
+  def deposit
+  end
+  
+
 end
