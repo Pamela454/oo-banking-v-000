@@ -15,7 +15,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     @sender.valid? && @receiver.valid?
   end
 
-  def execute_transaction(money)
+  def execute_transaction
     if !@sender.valid?
       return "Transaction rejected. Please check your account balance."
     end
