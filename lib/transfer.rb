@@ -30,7 +30,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
     if self.status == "executed" && sender.balance > amount && valid?
       receiver.balance -= amount
       sender.balance += amount
-      self.status = "reversed"
+      @status = "reversed"
     else
       @status = "rejected"
     end
