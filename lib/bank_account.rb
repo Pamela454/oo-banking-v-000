@@ -1,3 +1,6 @@
-class BankAccount #one instance can transfer money to another instance. is able to reject transfer
+class BankAccount #one instance can transfer money to another instance.
 
+  def initialize
+  end
+  
 end
