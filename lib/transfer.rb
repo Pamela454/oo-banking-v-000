@@ -29,7 +29,7 @@ class Transfer #space for transaction between two bank accounts. is able to reje
   def reverse_transfer
     if self.status == "executed"
       sender.balance += amount
-      receiver.balance -= amount 
+      receiver.balance -= amount
     end
   end
 
